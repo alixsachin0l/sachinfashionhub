@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sachin Fashion Hub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      display: inline-block;
+    }
+    section {
+      padding: 20px;
+    }
+    .product {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 15px;
+      background: white;
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+    }
+    .form-section form {
+      background: white;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Sachin Fashion Hub</h1>
+  <p>Style that defines you</p>
+</header>
+
+<nav>
+  <a href="#products">Products</a>
+  <a href="#order">Order Now</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="products">
+  <h2>Our Products</h2>
+
+  <div class="product">
+    <h3>Kurta Set</h3>
+    <img src="https://via.placeholder.com/400x300?text=Kurta+Set" alt="Kurta Set">
+    <p>Price: ₹999</p>
+  </div>
+
+  <div class="product">
+    <h3>Saree</h3>
+    <img src="https://via.placeholder.com/400x300?text=Saree" alt="Saree">
+    <p>Price: ₹1499</p>
+  </div>
+
+</section>
+
+<section id="order" class="form-section">
+  <h2>Place Your Order</h2>
+  <form action="https://formsubmit.co/sygameryadav@gmail.com" method="POST">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="text" name="Phone" placeholder="Phone Number" required>
+    <input type="text" name="Product" placeholder="Product Name" required>
+    <textarea name="Address" placeholder="Full Address" rows="4" required></textarea>
+    <button type="submit">Submit Order</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: sygameryadav@gmail.com</p>
+  <p>Phone: +91-XXXXXXXXXX</p>
+</section>
+
+<footer>
+  <p>© 2025 Sachin Fashion Hub. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
